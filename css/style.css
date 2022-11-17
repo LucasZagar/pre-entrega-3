@@ -1,0 +1,46 @@
+html body {
+  background-color: #ECBA82;
+}
+html .navbar {
+  background-color: #81C14B;
+}
+html .dropdown-menu {
+  background-color: #2E933C;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin-top: 1em;
+  font-size: large;
+  text-align: center;
+  font-weight: 600;
+  box-sizing: content-box;
+}
+
+.form {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: radial-gradient(#2E933C, #81C14B, #ECBA82);
+}
+
+#form4Example1 {
+  margin-top: 20px;
+}
+
+main {
+  overflow: hidden;
+}
+main .row {
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
