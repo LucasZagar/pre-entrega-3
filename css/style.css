@@ -37,10 +37,19 @@ p {
   margin-top: 20px;
 }
 
-main {
-  overflow: hidden;
+body {
+  overflow-x: hidden;
 }
-main .row {
+body .picas {
+  justify-content: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.fertis {
+  display: inline-block;
   justify-content: center;
 }
 
