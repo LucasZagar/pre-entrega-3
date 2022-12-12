@@ -1,4 +1,4 @@
-//*general Styles*//
+/*Estilos generales*/
 $primary-colors:  
 "1" #81C14B 
 "2" #2E933C
@@ -7,6 +7,10 @@ $primary-colors:
 html {
     body{
     background-color: #ECBA82;
+    overflow-x: hidden;
+    h2{
+    margin-top: .5em;
+    }
 }
 .navbar{
     background-color: #81C14B;
@@ -17,3 +21,16 @@ html {
 }
 
 }
+
+.productos{
+    justify-content: center;
+}
+
+.card-body{
+    a{
+        justify-content: center;
+        background: #81C14B;
+    }
+    
+}
+

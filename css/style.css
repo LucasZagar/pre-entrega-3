@@ -1,5 +1,10 @@
+/*Estilos generales*/
 html body {
   background-color: #ECBA82;
+  overflow-x: hidden;
+}
+html body h2 {
+  margin-top: 0.5em;
 }
 html .navbar {
   background-color: #81C14B;
@@ -8,6 +13,16 @@ html .dropdown-menu {
   background-color: #2E933C;
 }
 
+.productos {
+  justify-content: center;
+}
+
+.card-body a {
+  justify-content: center;
+  background: #81C14B;
+}
+
+/*index estilo*/
 h1 {
   display: flex;
   justify-content: center;
@@ -23,7 +38,6 @@ p {
   font-size: large;
   text-align: center;
   font-weight: 600;
-  box-sizing: content-box;
 }
 
 .form {
@@ -31,25 +45,16 @@ p {
   justify-content: center;
   align-content: center;
   background: radial-gradient(#2E933C, #81C14B, #ECBA82);
+  width: 40%;
 }
 
 #form4Example1 {
   margin-top: 20px;
 }
 
-body {
-  overflow-x: hidden;
-}
-body .picas {
-  justify-content: center;
-}
-
-body {
-  overflow-x: hidden;
-}
-
-.fertis {
-  display: inline-block;
+.formulario {
+  background: none;
+  display: flex;
   justify-content: center;
 }
 

@@ -1,3 +1,4 @@
+/*index estilo*/
 h1{
     display: flex;
     justify-content: center;
@@ -12,7 +13,7 @@ p{
     font-size: large;
     text-align: center;
     font-weight: 600;
-    box-sizing: content-box;
+    
     
 
 }
@@ -22,8 +23,17 @@ p{
     justify-content: center;
     align-content: center;
     background: radial-gradient(#2E933C, #81C14B, #ECBA82);
+    width: 40%;
+    
     
 }
 #form4Example1{
     margin-top: 20px;
 }
+
+.formulario{
+    background: none;
+    display: flex;
+    justify-content: center;
+}
+
